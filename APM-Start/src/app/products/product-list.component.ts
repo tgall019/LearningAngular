@@ -50,7 +50,7 @@ export class ProductListComponent implements OnInit{
     }
 
     ngOnInit(): void {
-        this.listFilter = 'cart';
+        this.listFilter = '';
     }
 
     performFilter(filterBy: string): IProduct[] {
