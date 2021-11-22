@@ -8,6 +8,8 @@ export class ProductDetailComponent implements OnInit {
 
   constructor() { }
 
+  pageTitle : string = 'Product List';
+
   ngOnInit(): void {
   }
 
